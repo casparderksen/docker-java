@@ -6,4 +6,4 @@ RUN microdnf update \
     && microdnf install --nodocs java-11-openjdk-headless \
     && microdnf clean all
 
-ENV JAVA_HOME /usr/lib/jvm/jre-11
+ENV JAVA_HOME /usr/lib/jvm/jre

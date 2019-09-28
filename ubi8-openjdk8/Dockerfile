@@ -7,4 +7,4 @@ RUN yum update -y \
         && yum -y install java-1.8.0-openjdk \
         && yum clean all
 
-ENV JAVA_HOME /usr/lib/jvm/jre-1.8.0
+ENV JAVA_HOME /usr/lib/jvm/jre

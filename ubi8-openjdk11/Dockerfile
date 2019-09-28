@@ -7,4 +7,4 @@ RUN yum update -y \
         && yum -y install java-11-openjdk \
         && yum clean all
 
-ENV JAVA_HOME /usr/lib/jvm/jre-11
+ENV JAVA_HOME /usr/lib/jvm/jre
